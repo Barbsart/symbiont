@@ -1,0 +1,105 @@
+body {
+    background-image: url(../../../images/mycelium_bg.png);
+    background-color: rgb(28, 24, 32);
+}
+
+.box {
+    background-image: url(shore.png);
+    height: 1200px;
+}
+
+#navTop{
+    position: absolute;
+    left: 360px;
+    top: -40px;
+    rotate: -10deg;
+}
+
+#navLeft{
+    position: absolute;
+    left: -20px;
+    top: 400px;
+    rotate: -110deg;
+}
+
+#navRight{
+    position: absolute;
+    right: 0px;
+    top: 135px;
+    rotate: 70deg;
+}
+
+#navBottom{
+    position: absolute;
+    left:700px;
+    bottom: -30px;
+    rotate: 180deg;
+}
+
+#inspect1 {
+    display: block;
+    width: 190px;
+    height: 80px;
+    position: absolute;
+    top: 160px;
+    left: 130px;
+}
+
+#text1 {
+    position: absolute;
+    left: 100px;
+    top: 120px;
+    rotate: 0deg;
+    display: none;
+}
+
+#inspect2 {
+    display: block;
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    left: 800px;
+}
+
+#text2 {
+    position: absolute;
+    left: 950px;
+    top: 320px;
+    rotate: 0deg;
+    display: none;
+}
+
+#inspect3 {
+    display: block;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 700px;
+    left: 300px;
+}
+
+#text3 {
+    position: absolute;
+    left: 250px;
+    top: 700px;
+    rotate: 0deg;
+    display: none;
+}
+
+#inspect4 {
+    display: block;
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    top: 950px;
+    left: 500px;
+}
+
+#text4 {
+    position: absolute;
+    left: 500px;
+    top: 950px;
+    rotate: 0deg;
+    display: none;
+}

@@ -1,0 +1,35 @@
+body {
+    background-image: url(../../../images/mycelium_bg.png);
+    background-color: #1c1820;
+}
+
+.box {
+    background-image: url(sky.png);
+}
+
+#navBottom{
+    position: absolute;
+    left:700px;
+    bottom: -80px;
+    rotate: 180deg;
+}
+
+#button1 {
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    right: 360px;
+    top: 250px;
+}
+
+#text1 {
+    position: absolute;
+    left: 300px;
+    bottom: 200px;
+    rotate: 5deg;
+    display: none;
+}
+
+.inspectButton {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.438);
+}

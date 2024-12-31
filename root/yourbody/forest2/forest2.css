@@ -1,0 +1,44 @@
+body {
+    background-image: url(../../images/mycelium_bg.png);
+    background-color: rgb(28, 24, 32);
+}
+
+.box {
+    background-image: url(forest2.png);
+    background-position: bottom;
+}
+
+#navTop{
+    position: absolute;
+    left: 360px;
+    top: -40px;
+    rotate: -10deg;
+}
+
+#navLeft{
+    position: absolute;
+    left: -90px;
+    top: 250px;
+    rotate: -90deg;
+}
+
+#navRight{
+    position: absolute;
+    right: -80px;
+    bottom: 260px;
+    rotate: 90deg;
+}
+
+#navBottom{
+    position: absolute;
+    left:700px;
+    bottom: -80px;
+    rotate: 180deg;
+}
+
+#web {
+    width: 400px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}

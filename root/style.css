@@ -1,0 +1,143 @@
+:root {
+    --webweaver: #638294;
+    --webweaverLink: #99cdd2;
+    --webweaverHover: #3f1549;
+    --player: #d9e7eb;
+    --bug: #94b851;
+    --heron: #5c4e33;
+}
+
+@font-face {
+    font-family: Fibberish;
+    src: url(fonts/fibberish.ttf);
+  }
+
+@font-face {
+    font-family: Snide;
+    src: url(fonts/Snide\ Asides.ttf);
+}
+
+@font-face {
+    font-family: Sol;
+    src: url(fonts/Sol\ Schori.ttf);
+}
+
+.container {
+    margin: auto;
+    margin-top: 30px;
+	width: 1300px;
+    position: relative;
+}
+
+.spiderDialogue span {
+    background-color: rgb(244, 243, 237);
+    border-radius: 2px;
+    color: var(--webweaver);
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    line-height: 2;
+    font-family: Fibberish;
+    font-size: 28px;
+}
+
+.playerDialogue span {
+    background-color: rgb(27, 26, 26);
+    border-radius: 2px;
+    color: var(--player);
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    line-height: 2;
+    font-family: Fibberish;
+    font-size: 28px;
+}
+
+.bugDialogue span {
+    background-color: rgb(244, 243, 237);
+    border-radius: 2px;
+    color: var(--bug);
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    line-height: 2;
+    font-family: Fibberish;
+    font-size: 28px;
+}
+
+.heronDialogue span {
+    background-color: rgb(244, 243, 237);
+    border-radius: 2px;
+    color: var(--heron);
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    line-height: 2;
+    font-family: Fibberish;
+    font-size: 28px;
+}
+
+.clickText {
+    text-decoration-line: underline;
+    color: rgb(244, 243, 237) !important;
+    background-color: var(--webweaver) !important;
+    border: 1px dashed white;
+}
+
+.clickText:hover {
+    cursor: pointer;
+    background-color: var(--webweaverLink) !important;
+}
+
+.box {
+    height: 630px;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    border: 2px solid white;
+    background-size: cover;
+    background-position: center;
+}
+
+.myceliumOrigin {
+    width: 150px;
+    position: absolute;
+}
+
+.myceliumGif {
+    width: 150px;
+    position: absolute;
+    opacity: 0;
+}
+
+.navButton {
+    position: relative;
+}
+
+.navButton:hover .myceliumGif {
+    opacity: 1;
+}
+
+.navButton img {
+    filter: drop-shadow(0px 0px 4px #222);
+    width: 200px;
+}
+
+.inspectButton {
+    border: 2px dashed white;
+    box-shadow: 0 0 8px rgb(0, 0, 0);
+}
+
+.inspectButton:hover {
+    border: 2px dashed white;
+    box-shadow: 0 0 8px rgb(90, 216, 189);
+    cursor: pointer;
+}

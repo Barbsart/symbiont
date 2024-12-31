@@ -1,0 +1,74 @@
+body {
+    background-image: url(../../images/mycelium_bg.png);
+    background-color: rgb(28, 24, 32);
+}
+
+.box {
+    background-image: url(woodwideweb.png);
+}
+
+#navTop{
+    position: absolute;
+    left: 400px;
+    top: -40px;
+    rotate: -15deg;
+}
+
+#navLeft{
+    position: absolute;
+    left: -20px;
+    top: 400px;
+    rotate: -110deg;
+}
+
+#navRight{
+    position: absolute;
+    right: -60px;
+    top: 135px;
+    rotate: 70deg;
+}
+
+#navBottom{
+    position: absolute;
+    left:700px;
+    bottom: -30px;
+    rotate: 180deg;
+}
+
+#web1 {
+    width: 500px;
+    position: absolute;
+}
+
+#web2 {
+    width: 370px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+#text1 {
+    display: none;
+}
+
+#line1 {
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    rotate: 3deg;
+}
+
+#line2 {
+    position: absolute;
+    top: 350px;
+    left: 650px;
+    rotate: -2deg;
+}
+
+#button1 {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}

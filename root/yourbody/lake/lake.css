@@ -1,0 +1,69 @@
+body {
+    background-image: url(../../images/mycelium_bg.png);
+    background-color: rgb(28, 24, 32);
+}
+
+.box {
+    background-image: url(lake.png);
+}
+
+#navTop{
+    position: absolute;
+    left: 420px;
+    top: -80px;
+    rotate: 10deg;
+}
+
+#navLeft{
+    position: absolute;
+    left: -20px;
+    top: 600px;
+    rotate: -110deg;
+}
+
+#navRight{
+    position: absolute;
+    right: -60px;
+    top: 300px;
+    rotate: 100deg;
+}
+
+#navBottom{
+    position: absolute;
+    left: 700px;
+    bottom: -30px;
+    rotate: 160deg;
+}
+
+#button1 {
+    width: 160px;
+    height: 100px;
+    position: absolute;
+    left: 370px;
+    top: 350px;
+}
+
+#text1 {
+    display: none;
+}
+
+#line1 {
+    position: absolute;
+    left: 600px;
+    top: 100px;
+    rotate: -10deg;
+}
+
+#line2 {
+    position: absolute;
+    left: 800px;
+    top: 180px;
+    rotate: -3deg;
+}
+
+#line3 {
+    position: absolute;
+    left: 800px;
+    top: 380px;
+    rotate: 4deg;
+}

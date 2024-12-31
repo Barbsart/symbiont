@@ -1,0 +1,101 @@
+body {
+    background-image: url(../charnelBackground.png);
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 24px;
+}
+
+#theBody {
+    position: absolute;
+    top: -30px;
+    height: 1000px;
+    left: -160px;
+    z-index: -2;
+}
+
+#lung {
+    position: absolute;
+    left: 400px;
+    top: 410px;
+    width: 80px;
+    height: 120px;
+}
+
+#heart {
+    position: absolute;
+    right: 600px;
+    top: 500px;
+    width: 120px;
+    height: 60px;
+}
+
+#rib {
+    position: absolute;
+    left: 450px;
+    top: 650px;
+    width: 200px;
+    height: 120px;
+}
+
+#lungText { 
+    display: none;  
+    position: absolute;
+    right: 150px;
+    top: 50px;
+    text-align: right;
+}
+
+#heartText {
+    display: none;
+    position: absolute;
+    left: -100px;
+    top: 450px;
+}
+
+#ribText {
+    display: none;
+    position: absolute;
+    left: 700px;
+    top: 700px;
+    text-align: right;
+}
+
+#newborn, #life, #have, #burning {
+    display: inline-block;
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 2;
+}
+
+#corpse, #death, #will, #alive {
+    display: none;
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 2;
+}
+
+#button1 {
+    z-index: 3;
+    width: 100px;
+    height: 130px;
+    position: absolute;
+    top: -170px;
+    left: -250px;
+}
+
+.inspectButton {
+    border: 2px dashed white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.481);
+}
+
+.inspectButton:hover {
+    border: 2px dashed white;
+    box-shadow: 0 0 8px rgb(92, 174, 201);
+    cursor: pointer;
+}

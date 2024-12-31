@@ -1,0 +1,54 @@
+body {
+    background-image: url(../../../images/mycelium_bg.png);
+    background-color: rgb(28, 24, 32);
+}
+
+.box {
+    background-image: url(roots.png);
+}
+
+#navTop{
+    position: absolute;
+    left: 550px;
+    top: -60px;
+}
+
+#navLeft{
+    position: absolute;
+    left: -20px;
+    top: 400px;
+    rotate: -110deg;
+}
+
+#navRight{
+    position: absolute;
+    right: -40px;
+    top: 155px;
+    rotate: 70deg;
+}
+
+#navBottom{
+    position: absolute;
+    left: 750px;
+    bottom: -60px;
+    rotate: 180deg;
+}
+
+#button1 {
+    width: 200px;
+    height: 150px;  
+    position: absolute;
+    left: 550px;
+    top: 200px; 
+    display: block;
+    z-index: 1;
+}
+
+#text1 {
+    display: none;
+    text-align: center;
+    position: absolute;
+    top: 170px;
+    left: 420px;
+    z-index: 0;
+}

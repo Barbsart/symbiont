@@ -1,0 +1,162 @@
+body {
+    background-image: url(../../images/mycelium_bg.png);
+    background-color: rgb(28, 24, 32);
+}
+
+.box {
+    background-image: url(fallentree.png);
+    height: 1200px;
+}
+
+#navTop{
+    position: absolute;
+    left: 360px;
+    top: -40px;
+    rotate: -10deg;
+}
+
+#navLeft{
+    position: absolute;
+    left: -90px;
+    top: 600px;
+    rotate: -90deg;
+}
+
+#notes {
+    display: none;
+}
+
+#note1 {
+    position: absolute;
+    width: 100px;
+    left: 600px;
+    top: 300px;
+    filter: drop-shadow(0px 0px 4px black);
+}
+
+#note1:hover {
+    rotate: -15deg;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 4px #aeff4b);
+}
+
+#text1 {
+    display: none;
+    position: absolute;
+    left: 600px;
+    top: 330px;
+    rotate: -10deg;
+}
+
+#note2 {
+    position: absolute;
+    width: 200px;
+    right: 180px;
+    top: 530px;
+    rotate: 10deg;
+    filter: drop-shadow(0px 0px 4px black);
+}
+
+#text2 {
+    display: none;
+    position: absolute;
+    right: 230px;
+    top: 600px;
+    rotate: 3deg;
+}
+
+#note2:hover {
+    rotate: 15deg;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 4px #aeff4b);
+}
+
+#note3 {
+    position: absolute;
+    width: 100px;
+    right: 350px;
+    bottom: 250px;
+    filter: drop-shadow(0px 0px 4px black);
+}
+
+#note3:hover {
+    rotate: -15deg;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 4px #aeff4b);
+}
+
+#text3 {
+    display: none;
+    position: absolute;
+    right: 150px;
+    bottom: 250px;
+    rotate: 5deg;
+}
+
+#note4 {
+    position: absolute;
+    width: 150px;
+    right: 600px;
+    bottom: 100px;
+    rotate: -10deg;
+    filter: drop-shadow(0px 0px 4px black);
+}
+
+#note4:hover {
+    rotate: 10deg;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 4px #aeff4b);
+}
+
+#text4 {
+    display: none;
+    position: absolute;
+    right: 600px;
+    bottom: 100px;
+    rotate: -3deg
+}
+
+#inspect1 {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 630px;
+    left: 190px;
+}
+
+#woman, #me {
+    display: inline-block;
+}
+
+#insect, #machine, #you {
+    display: none;
+}
+
+.clickText {
+    background-color: #8dc474 !important;
+    color: white !important;
+}
+
+.clickText:hover {
+    background-color: #a5db71 !important;
+    color: white !important;
+}
+
+#heart img{
+    position: absolute;
+    width: 170px;
+    left: 337px;
+    top: 370px;
+}
+
+#heart {
+    display: none;
+}
+
+#inspect2 {
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    top: 410px;
+    left: 365px;
+}
